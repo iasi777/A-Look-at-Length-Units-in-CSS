@@ -8,17 +8,17 @@
 
 - 绝对单位在物理世界真实测量的数字表示。这些单位跟设备分辨率无关，所以在不同分辨率上的设备应用效果较差。通常用于印刷业。绝对长度单位包括
 
-- cm(厘米)
+    - cm(厘米)
 
-- mm(毫米)
+    - mm(毫米)
 
-- in(英寸)
+    - in(英寸)
 
-- pc(派卡)
+    - pc(派卡)
 
-- pt(点)
+    - pt(点)
 
-- px(像素)
+    - px(像素)
 
 - 绝对单位里像素（px）使用最为广泛。一像素点通常被理解为在屏幕上的一个点，但实际情况比这个复杂得多.它是最小的测量单位，通常作为其它单位的基准。
 其它单位，像英寸，毫米，厘米，表示得是物理尺寸。
@@ -95,15 +95,15 @@ padding-top: 130px;
 视图窗口或视口是屏幕可见区域或屏幕上的框架空间区域。
 视口相对单位包括：
 
-- vw:视口宽度(viewport width)
+    - vw:视口宽度(viewport width)
 
-- vh:视口高度(viewport height)
+    - vh:视口高度(viewport height)
 
-- vmin:视口宽度或高度，选择小的那个
+    - vmin:视口宽度或高度，选择小的那个
 
-- vmax:视口宽度或高度，选择大的那个
+    - vmax:视口宽度或高度，选择大的那个
 
-- vh和vw
+    - vh和vw
 
 - vh主要取决于视口的高度，1vh等于视口高度的1%，这主要用在元素要根据视口高度进行缩放时。例如：如果视口高度为400px，1vh=400/100=4px，如果视口高为800px，1vh=8px
 
@@ -117,12 +117,12 @@ padding-top: 130px;
 
 - em,ex,px,cm,mm,in,pt,pc
 - 所有浏览器都支持，包括旧的IE
-- ch
-- Firefox, Chrome 27+, IE 9+, Safari 7+, and Opera 20+.
-- rem
-- 所有现在浏览器，及IE9+。需要兼容小于IE9的情况，可以使用REM-- - - - unit-polyfill
-- vw,wh,vmin
-- Chrome 20+, IE 9+, Firefox 19+, Safari 6+, Opera 20+. IE中支持的vmin不是标准语法。可以使用 vminpoly 或 use -prefix-free插件。
+    - ch
+    - Firefox, Chrome 27+, IE 9+, Safari 7+, and Opera 20+.
+    - rem
+    - 所有现在浏览器，及IE9+。需要兼容小于IE9的情况，可以使用REM-- - - - unit-polyfill
+    - vw,wh,vmin
+    - Chrome 20+, IE 9+, Firefox 19+, Safari 6+, Opera 20+. IE中支持的vmin不是标准语法。可以使用 vminpoly 或 use -prefix-free插件。
 vmax
 Chrome 20+, Firefox 19+, and Opera 20+, and Safari 6.1+.IE不兼容，可以使用viewport-units-buggyfill进行兼容。
 
